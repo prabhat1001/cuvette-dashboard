@@ -1,0 +1,15 @@
+.Skill-Container{
+    width: 87%;
+    height: 100vh;
+    margin-left: 220px;
+    /* background-color: #c7effe; */
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.cont-left{
+    width: 60%;
+    height: 80vh;
+    /* background-color: #000; */
+    padding-top: 10px;
+}

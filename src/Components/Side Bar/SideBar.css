@@ -1,0 +1,47 @@
+.Container{
+    width: 220px;
+    height: 100vh;
+    /* background-color: #fff; */
+    background-color: #ff8000;
+    border: #EBF0F5 2px solid;
+    position: absolute;
+    left: 0;
+    margin-top: -1px;
+}
+
+.SidebarMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.SidebarItem{
+    display: flex;
+    width: 200px;
+    border-radius: 0 25px 25px 0;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    padding: 10px 0 10px 20px;
+    margin: 10px 0 4px 0;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.active, .SidebarItem:hover{
+    color: #445EE2;
+    background-color: #F7F8FA;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+span{
+    margin-left: 10px;
+}
